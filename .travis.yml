@@ -1,0 +1,24 @@
+sudo: false
+before_script:
+  - curl -LSfs https://japaric.github.io/trust/install.sh |
+    sh -s --
+    --git cobalt-org/cobalt.rs
+    --crate cobalt
+    --force
+    --target x86_64-unknown-linux-gnu
+    --tag v0.11.1
+  - export PATH="$PATH:~/.cargo/bin"
+script:
+  - cobalt build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GH_TOKEN
+  local_dir: build
+  target_branch: master
+  on:
+    branch: source
+env:
+  global:
+  - secure: INSERT_HERE
