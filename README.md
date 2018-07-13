@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/utah-rust/utah-rust.github.io.svg?branch=source)](https://travis-ci.org/utah-rust/utah-rust.github.io)
 
+You can also find us at https://meetup.com/utahrust and in the `#utah` channel at http://rust-lang.slack.com.
+
 ## Contributing
 
 ### Editing the Website
