@@ -9,7 +9,7 @@
       <h2>{{ page.title }}</h2>
       <h3>{{ page.description }}</h3>
       {% if page.published_date %}
-      <h2>When: {{ page.published_date }} {% if page.data.meetup %}RSVP!{% endif %}</h2>
+      <h2>When: {{ page.published_date }} {% if page.data.meetup %}<a href="{{ page.data.meetup }}">RSVP!</a>{% endif %}</h2>
       {% endif %}
       <h2>Agenda:</h2>
       {% for item in page.data.agenda %}
