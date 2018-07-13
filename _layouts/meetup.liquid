@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+    <div>
+      <h2>{{ page.title }}</h2>
+      <h3>{{ page.description }}</h3>
+      {% if page.published_date %}
+      <h2>When: {{ page.published_date }} {% if page.data.meetup %}RSVP!{% endif %}</h2>
+      {% endif %}
+      <h2>Agenda:</h2>
+      {% for item in page.data.agenda %}
+      <p>{{ item.title }} by {{ item.presenter }} {% if item.slides %}[slides]({{item.slides}}){% endif %} {% if item.video %}[video]({{item.video}}){% endif %}</p>
+      {% endfor %}
+      {{ page.content }}
+    </div>
+  </body>
+</html>

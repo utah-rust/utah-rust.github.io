@@ -1,7 +1,7 @@
-
 site:
-  title: cobalt blog
-  description: Blog Posts Go Here
-  base_url: http://example.com
+  title: Utah Rust Meetup Group!
+  description: Serving Salt Lake and Utah Valleys.
+  base_url: utah-rust.github.io
 posts:
+  title: Announcements
   rss: rss.xml
