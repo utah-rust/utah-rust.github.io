@@ -13,7 +13,7 @@
       {% endif %}
       <h2>Agenda:</h2>
       {% for item in page.data.agenda %}
-      <p>{{ item.title }} by {{ item.presenter }} {% if item.slides %}[slides]({{item.slides}}){% endif %} {% if item.video %}[video]({{item.video}}){% endif %}</p>
+      <p>{{ item.title }} by {{ item.presenter }} {% if item.slides %}<a href="{{item.slides}}">slides</a>{% endif %} {% if item.video %}<a href="{{item.video}}">video</a>{% endif %}</p>
       {% endfor %}
       {{ page.content }}
     </div>
