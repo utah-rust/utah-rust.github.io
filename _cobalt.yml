@@ -1,7 +1,7 @@
 site:
   title: Utah Rust Meetup Group!
   description: Serving Salt Lake and Utah Valleys.
-  base_url: utah-rust.github.io
+  base_url: https://utah-rust.github.io
 posts:
   title: Announcements
   rss: rss.xml
