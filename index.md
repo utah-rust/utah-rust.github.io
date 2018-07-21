@@ -10,6 +10,6 @@ layout: default.liquid
 
 ## Meetups
 
-[2018 July]({{ site.base_url }}/events/2018-07)
+[2018 July]({{ site.base_url }}/events/2018-07-19-meetup-2-how-to-start-hacking-in-rust.html)
 
-[2018 June]({{ site.base_url }}/events/2018-06)
+[2018 June]({{ site.base_url }}/events/2018-06.html)
