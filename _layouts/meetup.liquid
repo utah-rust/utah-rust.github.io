@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-    </head>
-    <body>
-    <div>
+<html lang="en">
+  {% include head.liquid %}
+  <body>
+    {% include header.liquid %}
+    <article class="page-event" role="main">
       <h2>{{ page.title }}</h2>
       <h3>{{ page.description }}</h3>
       {% if page.published_date %}
@@ -15,7 +13,9 @@
       {% for item in page.data.agenda %}
       <p>{{ item.title }} by {{ item.presenter }} {% if item.slides %}<a href="{{item.slides}}">slides</a>{% endif %} {% if item.video %}<a href="{{item.video}}">video</a>{% endif %}</p>
       {% endfor %}
+
       {{ page.content }}
-    </div>
+
+    {% include footer.liquid %}
   </body>
 </html>
