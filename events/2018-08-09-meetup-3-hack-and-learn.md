@@ -6,6 +6,8 @@ data:
   agenda:
     - presenter: Erich Gubler
       title: Welcome!
+    - presenter: Nathan Stocks
+      title: Why I Love Rust + What I'm Working On.  Quick & Simple.
   meetup: https://www.meetup.com/utahrust/events/252760018/
 ---
 
