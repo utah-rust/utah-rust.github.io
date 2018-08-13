@@ -8,6 +8,7 @@ data:
       title: Welcome!
     - presenter: Nathan Stocks
       title: Why I Love Rust + What I'm Working On.  Quick & Simple.
+      slides: /assets/slides/2018-08-09-hack-and-learn/UtahRustIntro.pdf
   meetup: https://www.meetup.com/utahrust/events/252760018/
 ---
 
