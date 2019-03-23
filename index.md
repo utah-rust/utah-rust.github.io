@@ -10,6 +10,8 @@ layout: default.liquid
 
 ## Meetups
 
+[2019 March]({{ site.base_url }}/events/2019-03-14.html)
+
 [2019 February]({{ site.base_url }}/events/2019-02-12.html)
 
 [2019 January]({{ site.base_url }}/events/2019-01-10.html)
