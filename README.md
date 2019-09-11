@@ -39,12 +39,6 @@ Preview
 cobalt serve
 ```
 
-Sync the site folder to the webhost
-
-```bash
-ls ./site/
-```
-
 The website is built using [cobalt][cobalt] and [liquid][liquid] and is hosted using github pages.
 
 1. [Get started with cobalt](http://cobalt-org.github.io/getting-started/)
