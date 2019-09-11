@@ -89,17 +89,14 @@ function announce($el, date) {
 
 // Second Thursday of each Month
 var next = nextNthWeekday(new Date(), 4, 2);
-console.log('next', next);
 var nextNext = nextNthWeekday(
 	new Date(next.getFullYear(), next.getMonth(), next.getDate() + 1),
 	4,
 	2
 );
-console.log('nextNext', nextNext);
 
 // Handler when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-	console.log('next meetup', document.body.querySelector('.js-next-meetup'));
 	announce(document.body.querySelector('.js-next-meetup'), next);
 	announce(document.body.querySelector('.js-next-next-meetup'), nextNext);
 	document.body.querySelector('.js-meetups').hidden = false;
