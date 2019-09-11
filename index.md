@@ -1,14 +1,37 @@
-layout: default.liquid
 ---
+layout: default.liquid
+title: 'Utah.rs: Rustaceans of the Beehive state!'
+---
+
+{% if collections.posts.pages.length %}
+
 ## Announcements!
 
 {% for post in collections.posts.pages %}
+
 #### {{post.title}}
 
 [{{ post.title }}]({{ post.permalink }})
+
 {% endfor %}
 
-## Meetups
+{% endif %}
+
+<div class="js-meetups" hidden>
+
+# Upcoming Meetups:
+
+-   <h4 class="js-next-meetup"><span class="js-weekday"></span> <span class="js-month"></span>, <span class="js-date"></span> <span class="js-year"></span> <a href="{{ site.data.meetup }}">RSVP</a> </h4>
+-   <h4 class="js-next-next-meetup"><span class="js-weekday"></span> <span class="js-month"></span>, <span class="js-date"></span> <span class="js-year"></span> <a href="{{ site.data.meetup }}">RSVP</a> </h4>
+
+</div>
+<br>
+
+We typically do pizza and presentations on the 2nd Thursday of the month.
+
+Check [{{ site.data.meetup }}]({{ site.data.meetup }}) the night of to be sure.
+
+## Past Presentations
 
 [2019 March]({{ site.base_url }}/events/2019-03-14.html)
 
