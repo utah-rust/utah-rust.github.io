@@ -52,5 +52,3 @@ The website is built using [cobalt][cobalt] and [liquid][liquid] and is hosted u
 
 [cobalt]: http://cobalt-org.github.io
 [liquid]: https://shopify.github.io/liquid
-[cobalt]: http://cobalt-org.github.io
-[liquid]: https://shopify.github.io/liquid
