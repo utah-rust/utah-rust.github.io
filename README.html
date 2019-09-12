@@ -1,0 +1,31 @@
+<h1>Website for Utah Rust</h1>
+<p><a href="https://travis-ci.org/utah-rust/utah-rust.github.io"><img src="https://travis-ci.org/utah-rust/utah-rust.github.io.svg?branch=source" alt="Build Status" /></a></p>
+<p>You can also find us at https://meetup.com/utah-rust and in the <code>#utah</code> channel at http://rust-lang.slack.com.</p>
+<h2>Contributing</h2>
+<h3>Editing the Website</h3>
+<p>Install Rust:</p>
+<pre style="background-color:#2b303b;">
+<span style="background-color:#2b303b;color:#c0c5ce;">curl --proto &#39;=https&#39; --tlsv1.2 -sSf https://sh.rustup.rs | sh
+</span></pre>
+<p>Install Cobalt:</p>
+<pre style="background-color:#2b303b;">
+<span style="background-color:#2b303b;color:#c0c5ce;">cargo install cobalt-bin
+</span></pre>
+<p>Clone the repo and enter website:</p>
+<pre style="background-color:#2b303b;">
+<span style="background-color:#2b303b;color:#c0c5ce;">git clone git@github.com:utah-rust/utah-rust.github.io.git
+</span><span style="background-color:#2b303b;color:#c0c5ce;">cd ./utah-rust.github.io/
+</span></pre>
+<p>Build the website:</p>
+<pre style="background-color:#2b303b;">
+<span style="background-color:#2b303b;color:#8fa1b3;">cobalt</span><span style="background-color:#2b303b;color:#c0c5ce;"> build
+</span></pre>
+<p>Preview:</p>
+<pre style="background-color:#2b303b;">
+<span style="background-color:#2b303b;color:#8fa1b3;">cobalt</span><span style="background-color:#2b303b;color:#c0c5ce;"> serve
+</span></pre>
+<p>The website is built using <a href="http://cobalt-org.github.io"><code>cobalt</code></a> and <a href="https://shopify.github.io/liquid"><code>liquid</code></a> and is hosted using <a href="https://pages.github.com/">Github Pages</a>.</p>
+<ol>
+<li><a href="http://cobalt-org.github.io/getting-started/">Get started with <code>cobalt</code></a></li>
+<li>Edit and create a PR for the <code>source</code> branch (<code>master</code> is for the built site).</li>
+</ol>
