@@ -1,7 +1,7 @@
 site:
   title: "Utah Rust: your local Rust community"
   description: Serving Salt Lake and Utah Valleys.
-  base_url: https://utah-rust.github.io
+  base_url: https://utah.rs
   data:
     meetup: https://www.meetup.com/utahrust/
     source: https://github.com/utah-rust/utah-rust.github.io
