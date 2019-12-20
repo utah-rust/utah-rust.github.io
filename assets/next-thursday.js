@@ -20,7 +20,13 @@ function nextNthWeekday(date, numDay, occurance) {
 	var di = 0;
 	var day;
 	var next;
+	var count = 0;
 	while (di < occurance /*&& d <= 31*/) {
+		count += 1;
+		if (count > 1000) {
+			console.error('error with date calculation (infinite loop)');
+			break;
+		}
 		next = new Date(
 			yyyy,
 			m,
