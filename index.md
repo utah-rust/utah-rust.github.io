@@ -3,6 +3,13 @@ layout: default.liquid
 title: 'Utah.rs: Rustaceans of the Beehive state!'
 ---
 
+We are Utah Rust, the only meetup group for the [Rust programming language](https://www.rust-lang.org/) in the state of Utah in the USA.
+
+We want to enable the community to dive into the exciting breadth and depth of development in Rust by:
+* Onboarding people to Rust in a supportive environment, so they can enter the community with confidence.
+* Providing both human and technical resources to aid Rust developers with specific problems.
+* Empowering the humans of Utah Rust to be social, build relationships, network with others, and finding next steps in their careers.
+
 {% if collections.posts.pages.length %}
 
 ## Announcements!
