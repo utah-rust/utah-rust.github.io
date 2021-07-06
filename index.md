@@ -10,7 +10,6 @@ We want to enable the community to dive into the exciting breadth and depth of d
 * Providing both human and technical resources to aid Rust developers with specific problems.
 * Empowering the humans of Utah Rust to be social, build relationships, network with others, and finding next steps in their careers.
 
-
 {% if collections.posts.pages.length %}
 
 ## Announcements!
